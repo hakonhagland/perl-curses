@@ -1,0 +1,15 @@
+The Curses Perl module was created by William Setzer (William_Setzer at
+ncsu.edu) in 1994.  William maintained it up until July 2001, when he stopped
+having time to do so.
+
+In September 2004, Bryan Henderson (bryanh@giraffe-data.com) took over
+maintainership of it, after confirming with William that he did not plan to
+continue.
+
+The module has always been distributed via CPAN.
+
+Curses itself is much older than the Perl implementation.  Curses was
+originally only a C programming library.
+
+See the file ChangeLog for the list of changes in each release.
+
