@@ -1,0 +1,10 @@
+Curses.bs
+Curses.o
+CursesDef.h
+MYMETA.json
+MYMETA.yml
+Makefile
+blib/
+c-config.h
+config.h
+pm_to_blib
