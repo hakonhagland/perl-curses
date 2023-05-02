@@ -112,6 +112,8 @@ my $form_libs = $ENV{'CURSES_FORM_LDFLAGS'} || '';
 #
 my $guess_cfg = {
   'aix'       => [ ''                       , '-lcurses -ltermcap'        ],
+  'android'   => [ '-I/data/data/com.termux/files/usr/include'
+                                            , '-L/data/data/com.termux/files/usr/lib -lncurses' ],
   'bsd386'    => [ ''                       , '-lcurses -ltermcap'        ],
   'bsdos'     => [ ''                       , '-lcurses -ltermcap'        ],
   'cygwin'    => [ '-I/usr/include/ncurses' , '-lncurses'                 ],
